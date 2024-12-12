@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Icon -->
+    <link rel="icon" href="assets/logo.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/logo.png" alt="logo" />
+        <a href="/">Raul César Couto Sampaio</a>
+      </div>
+
+      <nav>
+        <a href="#">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#skill">Habilidades</a>
+        <a href="#project">Projetos</a>
+        <a href="#contact">Contato</a>
+      </nav>
+
+      <div class="extra-nav">
+        <button>Get In Touch</button>
+      </div>
+
+      <div id="menu" class="hamburger-menu">
+        <svg
+          width="35px"
+          height="35px"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4 18L20 18"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M4 12L20 12"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M4 6L20 6"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+      </div>
+
+      <!-- Mobile Nav -->
+      <div id="nav-mobile" class="mobile-nav">
+        <div id="close-mobile" class="close">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: none;
+                  stroke: #ffffff;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 2px;
+                }
+              </style>
+            </defs>
+
+            <title />
+
+            <g id="cross">
+              <line class="cls-1" x1="7" x2="25" y1="7" y2="25" />
+
+              <line class="cls-1" x1="7" x2="25" y1="25" y2="7" />
+            </g>
+          </svg>
+        </div>
+        <ul>
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skilll">Skilll</a></li>
+          <li><a class="nav-link" href="#project">Project</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="content">
+          <svg viewBox="0 0 1500 500" data-aos="fade-down">
+            <text x="50%" y="50%" text-anchor="middle">Raul César</text>
+          </svg>
+          <h1 data-aos="zoom-in-up">
+            Fornecendo soluções de front-end personalizadas <span>que se destacam</span>
+          </h1>
+          <button data-aos="zoom-out"><span>Veja meu trabalho</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Sobre mim
+          </h1>
+          <div class="about-me">
+            <div data-aos="zoom-out-right" data-aos-delay="300" class="profile">
+              <div class="image-box">
+                <img src="assets/profile.png" alt="profile" />
+              </div>
+            </div>
+
+            <div
+              data-aos="zoom-in-left"
+              data-aos-delay="300"
+              class="description"
+            >
+              <div class="name-role">
+                <h1>Raul César</h1>
+                <div class="role">
+                  <h2>Desenvolvedor Front-End  </h2>
+                </div>
+              </div>
+              <p>
+                Olá, sou o Raul, estudante do 3º ano (5º período) de Engenharia de Computação na UNISAL em Lorena - SP, com previsão de formatura em dezembro de 2026. Tenho um forte interesse em desenvolvimento de software e busco uma oportunidade de estágio que me permita aprofundar meus conhecimentos nas áreas de front-end, back-end ou desenvolvimento mobile. <br />
+                <br />
+                Além disso, estou sempre em busca de desafios que possam aprimorar minhas habilidades técnicas e interpessoais. Possuo conhecimentos básicos em linguagens como Python, JavaScript e C++ entre outras a baixo, e estou familiarizado com o uso de ferramentas e metodologias.<br />
+                <br />
+                Meu objetivo é consolidar minha carreira em tecnologia, aplicando o que aprendo na prática e me especializando em uma área que traga impacto positivo para projetos e empresas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skill" class="skill">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Habilidades
+          </h1>
+
+          <div class="skills" data-aos-delay="500">
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/html5.svg" alt="html" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/css3.svg" alt="css" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/javascript.svg" alt="javascript" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/typescript.svg" alt="typescript" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/react.svg" alt="react" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/c++.png" alt="c++" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/python.png" alt="python" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/excel.png" alt="excel" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/mysql.svg" alt="mysql" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/postgresql.svg" alt=" x" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/figma.svg" alt="x" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/github.svg" alt="x" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="project">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            projetos
+          </h1>
+
+          <div class="projects">
+            <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+              <img src="assets/project.png" alt="project" />
+
+              <div class="description">
+                <h1>Novaspace</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                  voluptas eaque enim soluta blanditiis velit quisquam delectus
+                  reiciendis debitis laboriosam.
+                </p>
+                <div class="action">
+                  <button>Github</button>
+                  <button>Demo</button>
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+              <img src="assets/project.png" alt="project" />
+
+              <div class="description">
+                <h1>Novaspace</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                  voluptas eaque enim soluta blanditiis velit quisquam delectus
+                  reiciendis debitis laboriosam.
+                </p>
+                <div class="action">
+                  <button>Github</button>
+                  <button>Demo</button>
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="500" class="card">
+              <img src="assets/project.png" alt="project" />
+
+              <div class="description">
+                <h1>Novaspace</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                  voluptas eaque enim soluta blanditiis velit quisquam delectus
+                  reiciendis debitis laboriosam.
+                </p>
+                <div class="action">
+                  <button>Github</button>
+                  <button>Demo</button>
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+              <img src="assets/project.png" alt="project" />
+
+              <div class="description">
+                <h1>Novaspace</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                  voluptas eaque enim soluta blanditiis velit quisquam delectus
+                  reiciendis debitis laboriosam.
+                </p>
+                <div class="action">
+                  <button>Github</button>
+                  <button>Demo</button>
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+              <img src="assets/project.png" alt="project" />
+
+              <div class="description">
+                <h1>Novaspace</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                  voluptas eaque enim soluta blanditiis velit quisquam delectus
+                  reiciendis debitis laboriosam.
+                </p>
+                <div class="action">
+                  <button>Github</button>
+                  <button>Demo</button>
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="500" class="card">
+              <img src="assets/project.png" alt="project" />
+
+              <div class="description">
+                <h1>Novaspace</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                  voluptas eaque enim soluta blanditiis velit quisquam delectus
+                  reiciendis debitis laboriosam.
+                </p>
+                <div class="action">
+                  <button>Github</button>
+                  <button>Demo</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Contato
+          </h1>
+
+          <form
+            data-aos="zoom-in-down"
+            data-aos-delay="300"
+            class="contact-form"
+          >
+            <div class="input">
+              <input type="text" placeholder="Name..." />
+              <input type="email" placeholder="Email..." />
+              <input type="number" placeholder="Phone..." />
+              <input type="text" placeholder="Subject..." />
+            </div>
+            <textarea name="message" placeholder="Message..."></textarea>
+
+            <button type="submit">Enviar</button> <div class="botao"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div data-aos="fade-up" data-aos-duration="1000" class="container">
+        <div class="profile">
+          <div class="logo">
+            <img src="assets/logo.png" alt="logo" />
+            <a href="">Raul César</a>
+          </div>
+
+          <!-- Short About -->
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            quas libero expedita, similique est sed.
+          </p>
+
+          <div class="social-media-container">
+            <div class="social-media">
+              <box-icon color="#fff" type="logo" name="instagram"></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon color="#fff" name="youtube" type="logo"></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon
+                color="#fff"
+                name="facebook-circle"
+                type="logo"
+              ></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon color="#fff" type="logo" name="tiktok"></box-icon>
+            </div>
+          </div>
+        </div>
+
+        <div class="link-container">
+          <div class="information">
+            <h1>Habilidades</h1>
+            <ul>
+              <li>
+                <a href="#">React.js</a>
+              </li>
+              <li>
+                <a href="#">HTML5</a>
+              </li>
+              <li>
+                <a href="#">Css3</a>
+              </li>
+              <li>
+                <a href="#">JavaScript</a>
+              </li>
+              <li>
+                <a href="#">Typescript</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="resource">
+            <h1>Tecnologia</h1>
+            <ul>
+              <li>
+                <a href="#">...</a>
+              </li>
+              <li>
+                <a href="#">...</a>
+              </li>
+              <li>
+                <a href="#">Figma</a>
+              </li>
+              <li>
+                <a href="#">Github</a>
+              </li>
+              <li>
+                <a href="#">...</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="navigation">
+            <h1>Navegação</h1>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Sobre</a>
+              </li>
+              <li>
+                <a href="#">Habilidades</a>
+              </li>
+              <li>
+                <a href="#">Projetos</a>
+              </li>
+              <li>
+                <a href="#">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Box Icon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script> 
+        const form = document.querySelector('.contact-form');
+
+        form.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(form); 
+
+        // Aqui você pode acessar os dados do formulário, por exemplo:
+        const nome = formData.get('name');
+        const email = formData.get('email');
+        const phone = formData.get('phone');
+        const subject = formData.get('subjact');
+        const message = formData.get('message');
+        // ...
+
+        const form = document.querySelector('.contact-form');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const formData = new FormData(form); 
+  console.log(formData); // Exibe os dados do formulário no console do navegador
+
+  fetch('http://localhost:3000/enviar-contato', {
+    method: 'POST',
+    body: formData
+  })
+  .then(response => response.text())
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => {
+    console.error('Erro ao enviar mensagem:', error);
+  });
+});
+});
+    </script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
